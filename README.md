@@ -11,7 +11,23 @@ Ce projet propose 2 modes:
 
 Aucune dépendance externe: Python standard suffit.
 
-## Mode 1: Preview Spotify
+## Lancement direct via Bash (recommandé)
+
+Un lanceur prêt à l'emploi est disponible:
+
+```bash
+./bash/lancer.sh
+```
+
+### Exemples
+
+```bash
+./bash/lancer.sh preview "https://open.spotify.com/playlist/PLAYLIST_ID"
+./bash/lancer.sh preview "PLAYLIST_ID" mes_previews --overwrite
+./bash/lancer.sh full-legal manifest.csv mes_full_tracks
+```
+
+## Mode 1: Preview Spotify (commande Python directe)
 
 ### Variables d'environnement Spotify
 
