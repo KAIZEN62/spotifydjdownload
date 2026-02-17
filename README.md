@@ -11,15 +11,29 @@ Ce projet propose 2 modes:
 
 Aucune dépendance externe: Python standard suffit.
 
-## Lancement direct via Bash (recommandé)
+## Lancement direct via CMD (Windows)
 
 Un lanceur prêt à l'emploi est disponible:
+
+```cmd
+cmd\lancer.cmd
+```
+
+### Exemples (CMD)
+
+```cmd
+cmd\lancer.cmd preview "https://open.spotify.com/playlist/PLAYLIST_ID"
+cmd\lancer.cmd preview "PLAYLIST_ID" mes_previews --overwrite
+cmd\lancer.cmd full-legal manifest.csv mes_full_tracks
+```
+
+## Lancement direct via Bash (Linux/macOS)
 
 ```bash
 ./bash/lancer.sh
 ```
 
-### Exemples
+### Exemples (Bash)
 
 ```bash
 ./bash/lancer.sh preview "https://open.spotify.com/playlist/PLAYLIST_ID"
